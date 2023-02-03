@@ -1,0 +1,20 @@
+body {  /* Comentario em CSS  */
+    background-color: rgb(214, 224, 224);
+    color: rgb(2, 2, 2);
+    font: normal 20pt Arial;
+
+}
+h1 {
+    color: rgb(53, 52, 53);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom-color: black;
+    border-top-left-radius: 40rem;
+}
+
+.img {
+    align-items:center;
+    height: 200px;
+    width: 40%;
+    background-image: url("Imagens/LGBTQ+.jpg");
+    
+ }

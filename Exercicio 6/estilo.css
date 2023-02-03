@@ -1,0 +1,41 @@
+body {
+    background: rgb(183, 159, 255);
+    font: normal 15pt Arial;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+
+
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 18px;   /* Borda arredondada */
+    padding: 15px;  
+    width: 500px;  /* Largura*/
+    margin: auto; /* Centralizado*/
+    box-shadow: 5px 5px 10px rgba(195, 26, 218, 0.359); /* Sombra*/
+    
+
+}
+
+div {
+    text-align: justify;
+    padding: 10px;
+  
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Nacionalidade</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        body {
+            font: normal 12pt Arial;
+            width:  800px; 
+            text-align: center;
+
+        }
+
+        h1 {
+            
+            color: rgb(249, 249, 250);
+            font: normal 18pt Arial;
+            background-color: rgb(0, 0, 0);
+            width: 300px;
+            height: 70px;
+            border-radius: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        
+            
+        }
+
+        div#res {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1> Verificação de pessoa estrangeira </h1>
+    Digite aqui onde você nasceu: <input type="text" name="" id="txtpais">
+    <input type="button" value="verificar" onclick="nacionalidade()">
+
+    <div id = 'res'> Lembrando que no Brasil, se escreve o pais com letra maiuscula! </div>
+
+    <script>
+        
+        function nacionalidade(){
+            var pais = document.getElementById('txtpais')
+            var p = String(pais.value)
+            
+            if (p == 'Brasil'){
+                res.innerHTML = 'Você é <strong> Brasileiro </strong>, bacana. Bem-vindo ao site!'
+            }
+            else{
+                res.innerHTML = 'Hello, you are not <strong>Brazilian </strong>. Welcome to the website.'
+            }
+        }
+    </script>
+</body>
+</html>
